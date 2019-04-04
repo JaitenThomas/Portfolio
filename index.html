@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    
+    <title>Jaiten Thomas Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script src="script.js"></script>
+    <script src="plugins/smooth-scroll-master/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <nav>
+        <h1 id="companyname"><a href="index.html#page-home">Jaiten Thomas | Portfolio</a></h1>
+        <ul>
+            <li><a data-scroll href="index.html#page-about">ABOUT ME</a></li>
+            <li><a data-scroll href="index.html#page-skill">SKILLS</a></li>
+            <li><a data-scroll href="index.html#page-project">PROJECTS</a></li>
+            <li><a data-scroll href="index.html#footer">CONTACT</a></li>
+          
+            <!-- CHANGE THIS LATER -->
+            <li id="resume-download">
+                <a href="C:\Users\Acer\Desktop\Portfolio/documents/Resume.docx" download="resume">RESUME
+                    <i class="fas fa-download"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <div id="responsive-on">
+                <i class="fas fa-bars" onclick="toggleResponsive()"></i>
+            </div>
+            <div id="responsive-off">
+                <i class="fas fa-times" onclick="toggleResponsive()"></i>
+            </div>
+        </div>
+    </nav>
+   
+    <section id="page-home">
+        <div class="page-home-container">
+            <div class="page-home-content">
+                <div class="page-home-content-box1">
+                    <h1 style="padding-top: 10px;">JAITEN THOMAS PORTFOLIO</h1>
+                    <p style="padding-top: 10px;">PEOPLE WORK BETTER TOGETHER</p>
+                    <p style="padding-top: 10px">"Alone we can do so little, together we can do so much."
+                    <br><br>--Helen Keller</p>
+                </div>
+                <div class="page-home-content-box2">
+                  <div class="page-home-content-box2-info">
+                    <p>Checkout my projects on GitHub below.</p>
+                    <br>
+                    <span><a href="https://github.com/JaitenThomas">Git Hub</a></span>
+                  </div>
+                </div>
+            </div>
+            <span class="icon-down">
+                <a href="#page-about"><i class="fas fa-angle-down"></i></a>
+            </span>   
+        </div>
+    </section>
+    <section id="page-about">
+        <div class="page-about-container">
+            <h1>Who am I...</h1>
+            <div class="page-about-content">
+              <div class="page-about-content-text">
+                <h2>Hello there! My name is Jaiten and I'm a hobbyist software developer. </h2>
+                <p>I enjoy spending my free time to futhur my knowledge in Software Development and create new projects that are challenging.</p>
+                <br>
+                <span id="button-more"><a href="#footer">Find out more</a></span>
+              </div>
+              <div class="page-about-content-image">
+                <img src="./images/fabian-grohs-423591-unsplash.jpg" ></image>
+              </div>
+            </div>
+        </div>
+    </section>
+    <section id="page-why">
+        <div class="page-why-container">
+            <div class="page-why-container-info">
+                <h1>Why work with me?</h1>
+                <br>
+                <p>There are many advantages working with me. Here is a few:</p>
+            </div>
+            <div class="page-why-content">
+                
+                <div class="page-why-content-box1">
+                    <i class="fas fa-code"></i>
+                    <h1>Passionate about development</h1>
+                    <p>Strong believe that passionate people create the greatest work.</p>
+                </div>
+                <div class="page-why-content-box2">
+                    <i class="fab fa-leanpub"></i>
+                    <h1>Quick Learner</h1>
+                    <p>Confident in my skills to quickly learn something new and implement them in production.</p>
+                </div>
+                <div class="page-why-content-box3">
+                   <i class="fas fa-users"></i>
+                   <h1>Adaptable</h1>
+                   <p>Ability to adapt to situations and work with your stack.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="page-skill">
+        <div class="skill-container">
+            <h1>Technological Skills</h1>
+            <p>I always enjoy learning new technologies.</p>
+            <div class="grid-container">
+                <span class="grid-item1">HTML5</span>
+                <span class="grid-item2">CSS3</span>
+                <span class="grid-item3">JavaScript</span>
+                <span class="grid-item4">Bootstrap 4</span>
+                <span class="grid-item5">React</span>
+                <span class="grid-item6">NodeJS</span>
+                <span class="grid-item7">Unity3D</span>
+                <span class="grid-item8">C#</span>
+                <span class="grid-item9">Java</span>
+                <span class="grid-item8">Git</span>
+                <span class="grid-item9">GitHub</span>
+            </div>
+        </div>
+    </section>
+    <section id="page-project">
+        <div class="projects-container">
+          <h1>Projects</h1>
+          <p>All projects I have created.</p>
+           <div class="project-container-grid">
+      
+            <div class="project-item-container">
+                <figure class="projects-item">
+                    <div class="project-image">
+                        <a href="https://starwarsproject12345.herokuapp.com/">
+                            <div class="project-image-overlay">
+                                <i class="fas fa-eye fa-lg"></i>
+                            </div>
+                        </a>
+                        <div class="image-container-n">
+                            <img src="./images/star_wars_app_image.JPG">
+                        </div>
+                    </div>
+                    <figcaption class="project-description">
+                        <p>A basic movie app to show information about Star Wars movies, created with NodeJS, HTML, CSS and Bootstrap.</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="project-item-container">
+                <figure class="projects-item">
+                    <div class="project-image">
+                        <a href="https://play.google.com/store/apps/details?id=com.Perplex.ColorDial">
+                            <div class="project-image-overlay">
+                                <i class="fas fa-eye fa-lg"></i>
+                            </div>
+                        </a>
+                        <div class="image-container-p">
+                            <img src="./images/color-dial-image.jpg">
+                        </div>
+                    </div>
+                    <figcaption class="project-description">
+                        <p>An android game made with Unity3D game engine and programmed with C#.</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="project-item-container">
+                <figure class="projects-item">
+                    <div class="project-image">
+                        <a href="https://play.google.com/store/apps/details?id=com.J10.lineball">
+                            <div class="project-image-overlay">
+                                <i class="fas fa-eye fa-lg"></i>
+                            </div>
+                        </a>
+                        <div class="image-container-p">
+                            <img src="./images/line-ball-image.jpg">
+                        </div>
+                    </div>
+                    <figcaption class="project-description">
+                        <p>An android game made with Unity3D game engine and programmed with C#.</p>
+                    </figcaption>
+                </figure>
+            </div>
+          </div>
+        </div>
+    </section>
+    
+    
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-content-box1">
+                        <h1>About JAITEN</h1>
+                        <p>Hello there! My name is Jaiten Thomas. I'm a 19 year old who enjoys creating software as a hobby, from creating  web to desktop and mobile applications.
+    
+                        <p>I started my journey as a self-taught programmer during the start of high school making desktop games as a hobby and later moving onto the mobile platform. During my final two years of high school I started to learn and create web applications.</p>
+    
+                        <p>I enjoy spending my free time to futhur my knowledge in Software Development and create new projects that are challenging.</p>
+    
+                        <p>Due to this, I'm enrolled in the Bachelor of Information Technology at Southern Cross University on the Gold Coast, to futhur increase my knowledge and gain employment opportunities.</p>
+                    </div>
+                    <div class="footer-content-box2">
+                        <h1>Contact</h1>
+                        <p>
+                            <i class="fas fa-envelope"></i>
+                            Email: jaiten.thomas@gmail.com 
+                        </p>
+                        <p>
+                            <i class="fas fa-phone"></i>
+                            Phone: (+61) 4 3969 0222
+                        </p>
+                    </div>
+                </div>
+                <p class="copyright">&copy; 2018 Jaiten Thomas</p>
+            </div>
+        </div>
+    </footer>
+ 
+    <script>
+        // var scroll = new SmoothScroll('a[href*="#"]');
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 1000,
+            speedAsDuration: true
+        });
+    </script>
+    <script type="text/javascript" src="parallax.js"></script>
+    <script type="text/javascript" src="scrollanimate.js"></script>
+
+</body>
+</html>
