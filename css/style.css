@@ -141,6 +141,7 @@ section {
   text-align: center;
   border-bottom: 1px solid black;
   margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .page-about-content {
@@ -255,6 +256,7 @@ section {
 .projects-container h1 {
   text-align: center;
   border-bottom: 1px solid black;
+  padding-bottom: 10px;
   margin-bottom: 10px;
 }
 
